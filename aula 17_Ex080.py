@@ -1,4 +1,4 @@
-#Cria um loop que adiciona entradas numéricas do usuário, ordenando-as em tempo real, sem sort()
+#Cria um loop que adiciona entradas numéricas do usuário, ordenando-as em tempo real, sem o comando sort()
 import Dicio as dic
 dic.cabeçalho('LISTA ORDENADA EM TEMPO REAL')
 usuário = list()

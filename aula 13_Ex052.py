@@ -1,4 +1,4 @@
-#Identificar números primos
+#Identificar números primos até um limite dado como entrada
 import emoji
 import Dicio as dic
 
