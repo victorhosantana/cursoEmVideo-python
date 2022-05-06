@@ -1,4 +1,4 @@
-# CursoEmVideo_Python
+# CursoEmVideo - Python
  Resolução dos exercícios propostos nos Mundos 1, 2 e 3 do curso de Python do Curso em Vídeo, criado pelo professor Gustavo Guanabara.
 
  A distribuição dos Mundos possuem os seguintes tópicos:
@@ -26,4 +26,4 @@
  3. Dicionários
  4. Funções
  5. Módulos e Pacotes
- 6. Tratamento de Erros
+ 6. Tratamento de Erros e Exceções
