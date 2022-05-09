@@ -21,8 +21,13 @@ def listar():
         sleep(1)
     else:
         #Leitura e impressão das informações na tela
-        for linha in arquivo:
-            pessoa = linha.split(';')
-            pessoa[1] = pessoa[1].replace('\n','')
-            print(f'\033[36m{pessoa[0]:<32}{pessoa[1]:>3} anos\033[0m')
-        arquivo.close()
+        if arquivo.read() == '':
+            print('Ainda não existem pessoas cadastradas.')
+            sleep(1)
+            arquivo.close()
+        else:
+            with open('dados.txt', 'r') as arquivo:
+                for linha in arquivo:
+                    pessoa = linha.split(';')
+                    pessoa[1] = pessoa[1].replace('\n','')
+                    print(f'\033[36m{pessoa[0]:<32}{pessoa[1]:>3} anos\033[0m')
